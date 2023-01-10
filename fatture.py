@@ -1,4 +1,6 @@
 import itertools
+import streamlit as st
+
 st.title("Trovare combinazione fatture")
 
 ticker1 = st.number_input('Numero 1',min_value=0.01)
