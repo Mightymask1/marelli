@@ -29,6 +29,6 @@ for combination in combinations:
         result.append(combination)
 
 if len(result)>0:
-    st.write("Combinazione:",result,"sums to", target)
+    st.text(result)
 else:
     st.write("Nessuna combinazione per", target)
