@@ -48,6 +48,20 @@ result = []
 for combination in combinations:
     if sum(combination) == target:
         result.append(combination)
+# Add css to make text bigger
+st.markdown(
+    """
+    <style>
+    textarea {
+        font-size: 3rem !important;
+    }
+    input {
+        font-size: 3rem !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 if len(result)>0:
     st.text(result)
