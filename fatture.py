@@ -8,12 +8,9 @@ with col1:
     ticker1 = st.number_input('Numero 1',min_value=0.01)
 with col2:
     ticker2 = st.number_input('Numero 2',min_value=0.01)
-with col1:
+with col3:
     ticker3 = st.number_input('Numero 3',min_value=0.01)
     
-    
-ticker2 = st.number_input('Numero 2',min_value=0.01)
-ticker3 = st.number_input('Numero 3',min_value=0.01)
 ticker4 = st.number_input('Numero 4',min_value=0.01)
 ticker5 = st.number_input('Numero 5',min_value=0.01)
 ticker6 = st.number_input('Numero 6',min_value=0.01)
