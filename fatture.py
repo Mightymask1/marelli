@@ -57,5 +57,5 @@ else:
     st.write("Nessuna combinazione per", target)
 
 result = "\n".join(str(x) for x in result)
-st.sidebar.text(Il risultato è:)
+st.sidebar.text(f'Il risultato è:')
 st.sidebar.text(result)
