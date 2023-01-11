@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Trovare combinazione fatture")
 
 st.subheader('with columns:')
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 with col1:
     movie = st.text_input('Please enter your favourite movie')
 
