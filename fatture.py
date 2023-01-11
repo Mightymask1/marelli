@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("Trovare combinazione fatture")
 
-st.sidebar.text_input('Per i maledetti')
+
 
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -55,3 +55,5 @@ if len(result)>0:
     st.text(result)
 else:
     st.write("Nessuna combinazione per", target)
+
+st.sidebar.text(result)
