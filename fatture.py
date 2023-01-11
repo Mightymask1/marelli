@@ -52,9 +52,10 @@ for combination in combinations:
         result.append(combination)
 
 if len(result)>0:
-    st.text(f'il risultato è: {result}')
+    st.text(f'Il risultato è: {result}')
 else:
     st.write("Nessuna combinazione per", target)
 
 result = "\n".join(str(x) for x in result)
-st.sidebar.text(f'il risultato è: {result}')
+st.sidebar.text(Il risultato è:)
+st.sidebar.text(result)
