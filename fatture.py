@@ -3,12 +3,15 @@ import streamlit as st
 
 st.title("Trovare combinazione fatture")
 
-st.subheader('with columns:')
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 with col1:
-    movie = st.text_input('Please enter your favourite movie')
-
-ticker1 = st.number_input('Numero 1',min_value=0.01)
+    ticker1 = st.number_input('Numero 1',min_value=0.01)
+with col2:
+    ticker2 = st.number_input('Numero 2',min_value=0.01)
+with col1:
+    ticker3 = st.number_input('Numero 3',min_value=0.01)
+    
+    
 ticker2 = st.number_input('Numero 2',min_value=0.01)
 ticker3 = st.number_input('Numero 3',min_value=0.01)
 ticker4 = st.number_input('Numero 4',min_value=0.01)
