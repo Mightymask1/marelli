@@ -3,6 +3,8 @@ import streamlit as st
 
 st.title("Trovare combinazione fatture")
 
+st.sidebar.text_input('Per i maledetti')
+
 col1, col2, col3 = st.columns(3)
 with col1:
     ticker1 = st.number_input('Numero 1',min_value=0.01)
