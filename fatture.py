@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("Trovare combinazione fatture")
 
-
+target=st.number_input('Numero da trovare')
 
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -28,7 +28,6 @@ with col5:
     ticker8 = st.number_input('Numero 8',min_value=0.01)
 with col6:
     ticker9 = st.number_input('Numero 9',min_value=0.01)
-
 col10, col11, col12 = st.columns(3)
 with col10:
     ticker10 = st.number_input('Numero 10',min_value=0.01)
@@ -36,9 +35,6 @@ with col11:
     ticker11 = st.number_input('Numero 11',min_value=0.01)
 with col12:
     ticker12 = st.number_input('Numero 12',min_value=0.01)
-
-
-target=st.number_input('Numero da trovare')
 
 numbers = [ticker1, ticker2, ticker3, ticker4, ticker5, ticker6, ticker7, ticker8, ticker9, ticker10, ticker11, ticker12]
 
