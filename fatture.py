@@ -11,13 +11,22 @@ with col2:
 with col3:
     ticker3 = st.number_input('Numero 3',min_value=0.01)
     
-ticker4 = st.number_input('Numero 4',min_value=0.01)
-ticker5 = st.number_input('Numero 5',min_value=0.01)
-ticker6 = st.number_input('Numero 6',min_value=0.01)
-ticker7 = st.number_input('Numero 7',min_value=0.01)
-ticker8 = st.number_input('Numero 8',min_value=0.01)
-ticker9 = st.number_input('Numero 9',min_value=0.01)
-ticker10 = st.number_input('Numero 10',min_value=0.01)
+col4, col5, col6 = st.columns(3)
+with col4:
+    ticker4 = st.number_input('Numero 4',min_value=0.01)
+with col5:
+    ticker5 = st.number_input('Numero 5',min_value=0.01)
+with col6:
+    ticker6 = st.number_input('Numero 6',min_value=0.01)
+    
+col7, col8, col9 = st.columns(3)
+with col4:
+    ticker7 = st.number_input('Numero 7',min_value=0.01)
+with col5:
+    ticker8 = st.number_input('Numero 8',min_value=0.01)
+with col6:
+    ticker9 = st.number_input('Numero 9',min_value=0.01)
+
 
 target=st.number_input('Numero da trovare')
 
